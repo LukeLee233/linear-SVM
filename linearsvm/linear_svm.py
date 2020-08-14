@@ -1,6 +1,6 @@
 import tensorflow as tf
 import numpy as np
-import plot_boundary_on_data
+from linearsvm import plot_boundary_on_data
 
 # Global variables.
 BATCH_SIZE = 100  # The number of training examples to use per training step.
